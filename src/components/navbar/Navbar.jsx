@@ -1,19 +1,18 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { MenuStyled, NavStyled, StyledLink } from './Navbar.style'
+import { MenuStyled, NavStyled, NavTitle, StyledLink } from './Navbar.style'
 
 
 const Navbar = () => {
   return (
     <NavStyled>
-      <div>
-        Universal Library
-      </div>
+      <NavTitle>
+        UNIVERSAL  LİBRARY
+      </NavTitle>
       <MenuStyled>
-        <StyledLink to="/" > Home </StyledLink>
-        <StyledLink to="/about" > About </StyledLink>
-        <StyledLink to="/register" > Register </StyledLink>
-        <StyledLink to="/login" > Login </StyledLink>
+        <StyledLink to="/" > HOME </StyledLink>
+        <StyledLink to="/about" > ABOUT </StyledLink>
+        <StyledLink to="/register" > REGİSTER </StyledLink>
+        <StyledLink to="/login" > LOGIN </StyledLink>
       </MenuStyled>
     </NavStyled>
   )
