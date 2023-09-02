@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { NavStyled } from './Navbar.style'
+import { MenuStyled, NavStyled, StyledLink } from './Navbar.style'
+
 
 const Navbar = () => {
   return (
@@ -8,12 +9,12 @@ const Navbar = () => {
       <div>
         Universal Library
       </div>
-      <div>
-        <Link to="/" > Home </Link>
-        <Link to="/about" > About </Link>
-        <Link to="/register" > Register </Link>
-        <Link to="/login" > Login </Link>
-      </div>
+      <MenuStyled>
+        <StyledLink to="/" > Home </StyledLink>
+        <StyledLink to="/about" > About </StyledLink>
+        <StyledLink to="/register" > Register </StyledLink>
+        <StyledLink to="/login" > Login </StyledLink>
+      </MenuStyled>
     </NavStyled>
   )
 }
