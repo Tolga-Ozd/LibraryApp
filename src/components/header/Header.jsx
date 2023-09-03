@@ -7,9 +7,13 @@ const Header = () => {
         <Title>BOOKS OR MAGAZINES</Title>
        <div>
        <FormStyled action="">
+          <div>
           <FormInput placeholder='Search..' type="text" />
           <FormSelect name="" id=""></FormSelect>
-          <FormButton>Seach</FormButton>
+          </div>
+         <div>
+         <FormButton>Search</FormButton>
+         </div>
         </FormStyled>
        </div>
         
