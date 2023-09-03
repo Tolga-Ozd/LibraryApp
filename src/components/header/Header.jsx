@@ -12,7 +12,7 @@ const Header = () => {
           <FormSelect name="" id=""></FormSelect>
           </div>
          <div>
-         <FormButton>Search</FormButton>
+         <FormButton>SEARCH</FormButton>
          </div>
         </FormStyled>
        </div>
