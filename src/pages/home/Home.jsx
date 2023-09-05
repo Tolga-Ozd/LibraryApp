@@ -8,7 +8,11 @@ const Home = () => {
     <div>
       <Header />
       <div>
-        
+        <h1>
+        </h1>
+        <img src="" alt="" />
+        <button>
+        </button>
       </div>
     </div>
   )
