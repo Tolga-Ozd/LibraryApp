@@ -1,7 +1,17 @@
 import React from 'react'
 import { FormButton, FormInput, FormSelect, FormStyled, Title } from './Header.style'
+import { useDataContext } from '../../context/DataContext'
 
 const Header = () => {
+
+  const {data , setData, getData} = useDataContext() 
+
+  const handleClick = (e) =>{
+      e.preventDefault()
+      getData()
+      
+  }
+
   return (
     <>
         <Title>BOOKS OR MAGAZINES</Title>
@@ -12,7 +22,7 @@ const Header = () => {
           <FormSelect name="" id=""></FormSelect>
           </div>
          <div>
-         <FormButton>SEARCH</FormButton>
+         <FormButton onClick={handleClick}>SEARCH</FormButton>
          </div>
         </FormStyled>
        </div>
