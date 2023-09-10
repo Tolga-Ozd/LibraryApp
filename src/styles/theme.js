@@ -1,6 +1,4 @@
 //create theme
-
-
 export const lightTheme = {
     colors: {
       navbarBgColor: "white",

@@ -6,8 +6,8 @@ import {lightIcon , darkIcon} from "../../helper/iconData"
 const Footer = () => {
   const {myTheme ,setMyTheme} = useThemeContext()
   const changeTheme = ()=>{
-    //toggle ternary oparatörü kullanarak
-    setMyTheme(prev=> (prev === "light" ? "dark" : "light" ))
+    //toggle mantığı kurduk.
+    setMyTheme((prev)=> prev === "light" ? "dark" : "light" )
   }
 
   return (

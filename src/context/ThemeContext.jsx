@@ -1,12 +1,12 @@
-import { useContext } from "react";
-import { useState } from "react";
-import { createContext } from "react";
+import { useContext ,useState , createContext } from "react";
 
+//! 1-ThemeContext oluşturuldu
 const ThemeContext = createContext()
 
- const ThemeContextProvider = ({children}) => {
+//! 2-Sarmallayıcı(Provider) Component
+const ThemeContextProvider = ({children}) => {
 
- const [myTheme , setMyTheme] = useState("light")
+  const [myTheme , setMyTheme] = useState("light")
 
   return (
    <ThemeContext.Provider value={{myTheme , setMyTheme}}>
@@ -15,6 +15,7 @@ const ThemeContext = createContext()
   )
 }
 
+//! 3-Consuming custom hook:
 export const useThemeContext = () => {
   return useContext(ThemeContext)
 }
