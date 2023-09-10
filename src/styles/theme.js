@@ -1,5 +1,6 @@
 //create theme
 
+
 export const lightTheme = {
     colors: {
       navbarBgColor: "white",
@@ -16,7 +17,7 @@ export const lightTheme = {
     }
   };
   
-  export const darktheme = {
+  export const darkTheme = {
     colors: {
       navbarBgColor: "rgba(255, 255, 255, 0.46)",
       mainColor: "rgb(15,15,15)",
