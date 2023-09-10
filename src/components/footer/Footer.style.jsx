@@ -8,8 +8,7 @@ position: relative;
 `
 
 export const FooterBtn = styled.button`
-
-border: none;
+  border: none;
   outline: none;
   background: none;
   cursor: pointer;

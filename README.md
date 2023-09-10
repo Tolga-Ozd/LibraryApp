@@ -1,11 +1,11 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-# Project-007 : Clarus Library
+# Project-007 : Universal Library
 
 ## Description
 
-Project aims to create a Clarus Library.
+Project aims to create a Universal Library.
 
 ## Problem Statement
 
@@ -14,7 +14,7 @@ Project aims to create a Clarus Library.
 ## Project Skeleton
 
 ```
-007 - Clarus Library (folder)
+007 - Universal Library (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)
 SOLUTION
@@ -78,13 +78,10 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Expected Outcome
-
-![Clarus Library](clarus-library.gif)
 
 ## Objective
 
-Build a Clarus Library using ReactJS.
+Build a Universal Library using ReactJS.
 
 ### At the end of the project, following topics are to be covered;
 
@@ -104,7 +101,7 @@ Build a Clarus Library using ReactJS.
 
 ## Steps to Solution
 
-- Step 1: Create React App using `yarn create react-app clarus-library`or `npx create-react-app clarus-library`
+- Step 1: Create React App using `yarn create react-app universal-library`or `npx create-react-app universal-library`
 
 - Step 2: Go to `https://developers.google.com/books/docs/v1/using?hl=tr` and get api key.
 
@@ -121,7 +118,7 @@ Build a Clarus Library using ReactJS.
 - You can add additional functionalities to your app.
 
 ## Demo
-  <a href="https://clarus-library.vercel.app/" target="_blank">Clarus Library</a>
+  <a href="https://clarus-library.vercel.app/" target="_blank">Universal Library</a>
 
 ## Google Books API
 
